@@ -1,0 +1,39 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: $main-font;
+  font-size: 14px;
+  background-color: $main-color;
+  color: $text-color;
+}
+
+.container {
+  max-width: 1230px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.8em 2.3em;
+  border-radius: 6px;
+  font-size: 14px;
+  font-family: inherit;
+  font-weight: 700;
+  background-color: $button-color;
+  color: #fff;
+  cursor: pointer;
+}
+
+.section-title {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.8);
+}
